@@ -1,1 +1,1 @@
-$give @s $item[custom_data={command:"$(command)",targetPos:$(targetpos)},custom_model_data:1]
+$give @s $item[custom_data={command:"$(command)",targetPos:$(targetpos),function:"$(function)"},custom_model_data:1]
