@@ -13,7 +13,7 @@ gamerule doImmediateRespawn true
 tellraw @a { "color": "#00FF00", "text": "Loaded Chest GUI's (By DerpKing11)"}
 
 # You can do whatever you want in the load function!
-#give @a minecraft:sea_pickle[minecraft:enchantments={levels:{"minecraft:silk_touch":2}}]
+give @a minecraft:sea_pickle[minecraft:enchantments={levels:{"minecraft:silk_touch":2}}]
 
 scoreboard objectives add chestgui.rotation dummy
 scoreboard objectives add chestgui.old_rotation dummy
