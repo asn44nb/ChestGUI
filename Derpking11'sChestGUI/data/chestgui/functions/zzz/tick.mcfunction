@@ -11,6 +11,6 @@ execute as @a run function chestgui:zzz/loop
 
 ## Rotation Detection
 execute as @a store result score @s chestgui.rotation run data get entity @s Rotation[0] 1
-execute as @a unless score @s chestgui.old_rotation = @s chestgui.rotation run function chestgui:zzz/next_screen {x:10,y:66,z:24,command:"setblock 0 0 0 air keep"}
+execute as @a unless score @s chestgui.old_rotation = @s chestgui.rotation run function chestgui:zzz/next_screen {x:10,y:66,z:24,command:"setblock 0 0 0 air keep",function:"_:tmp"}
 execute as @a store result score @s chestgui.old_rotation run data get entity @s Rotation[0] 1
 
