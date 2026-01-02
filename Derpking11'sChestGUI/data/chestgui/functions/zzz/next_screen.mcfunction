@@ -37,5 +37,5 @@ tag @a[nbt={SelectedItem:{id:"minecraft:lime_concrete"}}] add clear
 clear @a[tag=!clear] *[minecraft:custom_model_data=1]
 
 ## Clear Storage
-data merge storage chestgui.item {command:"setblock 0 0 0 air keep",x:0,y:0,z:0}
+data merge storage chestgui.item {command:"setblock 0 0 0 air keep",x:0,y:0,z:0,function:"_:tmp"}
 
