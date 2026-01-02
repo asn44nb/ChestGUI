@@ -27,7 +27,8 @@ $item replace entity @s enderchest.24 from block $(x) $(y) $(z) container.24
 $item replace entity @s enderchest.25 from block $(x) $(y) $(z) container.25
 $item replace entity @s enderchest.26 from block $(x) $(y) $(z) container.26
 ## Run Command
-$$(command)
+function chestgui:zzz/cmd {value:"$(command)"}
+function chestgui:zzz/func {value:"$(function)"}
 
 ## Clear GUI-items
 item replace entity @s player.cursor with air
